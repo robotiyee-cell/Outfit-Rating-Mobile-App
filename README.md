@@ -62,17 +62,45 @@ Once installed, you can test the latest features, submit feedback, and help shap
 
 ## 🛠 Technical Overview
 
-| Technology          | Usage                                                       |
-|---------------------|-------------------------------------------------------------|
-| React Native / Expo | Core mobile app framework                                  |
-| TypeScript          | Type-safe component and screen development                  |
-| Rork (AI Builder)   | Initial app skeleton, navigation structure, boilerplate UI  |
-| Backend API         | Outfit evaluation / scoring requests                        |
-| TestFlight          | iOS beta distribution                                      |
-
-
+| Layer          | Technology                                                           |
+|----------------|----------------------------------------------------------------------|
+| **Framework**  | React Native (Expo) |
+| **Language**   | TypeScript |
+| **AI Builder** | Rork (initial scaffolding & UI generation) |
+| **Styling**    | Custom theme tokens, gradients, spacing system, editorial typography |
+| **Navigation** | Expo Router / React Navigation |
+| **AI Backend** | `/evaluate-fashion` endpoint (LLM-based analysis) |
+| **Platform**   | iOS (TestFlight) — Android planned |
 ---
 
+## 🤖 AI-Assisted Development Approach  
+*(No AI chat logs stored — only process documentation.)*
+
+Development followed a **hybrid AI-assisted + manual engineering** workflow.
+
+### 🔹 1. Rapid App Scaffolding  
+Rork generated:
+- initial folder & file structure  
+- navigation boilerplate  
+- basic screen templates  
+- foundational UI components  
+
+This accelerated setup while maintaining full manual control.
+
+### 🔹 2. Iterative UI/UX Refinement  
+I refined:
+- fashion-oriented pink/purple visual palette  
+- editorial result layout  
+- spacing & typographic hierarchy  
+- animated score reveal components  
+- reusable card-based UI system  
+
+AI-generated layouts were iterated and finalized manually.
+
+### 🔹 3. Prompt Design for Fashion Evaluation  
+Since no chat logs exist, prompt design is expressed as **backend specifications**, not dialogues.
+
+--- 
 ## 🧠 Future Enhancements  
 
 - Personalized fashion recommendations  
