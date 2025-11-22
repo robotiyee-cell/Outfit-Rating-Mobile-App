@@ -29,14 +29,14 @@ This process demonstrates the ability to apply **prompt engineering techniques**
 ---
 ## ✨ Key Features  
 
-| Feature | Description |
-|----------|-------------|
-| 👕 **AI Outfit Evaluation** | Get instant style scores and feedback on uploaded or captured outfit photos. |
-| 🎯 **Fashion Insights** | Understand trend fit, color balance, and category relevance. |
-| 🛍️ **Brand & Designer Detection** | Identify similar outfits or designers based on visual AI analysis. |
-| 🔍 **Category-Based Search** | Filter results by outfit type, occasion, or fashion category. |
+| Feature                                | Description                                                                                  |
+|----------------------------------------|----------------------------------------------------------------------------------------------|
+| 👕 **AI Outfit Evaluation**           | Get instant style scores and feedback on uploaded or captured outfit photos. |
+| 🎯 **Fashion Insights**               | Understand trend fit, color balance, and category relevance. |
+| 🛍️ **Brand & Designer Detection**     | Identify similar outfits or designers based on visual AI analysis. |
+| 🔍 **Category-Based Search**          | Filter results by outfit type, occasion, or fashion category. |
 | 📸 **Photo Upload or Camera Capture** | Snap a look or select one from your gallery for instant feedback. |
-| 💎 **Membership Tiers** | Access premium features like trend forecasts and designer recommendations based on your plan. |
+| 💎 **Membership Tiers**               | Access premium features like trend forecasts and designer recommendations based on your plan. |
 
 ---
 
@@ -59,15 +59,17 @@ Once installed, you can test the latest features, submit feedback, and help shap
 
 ---
 
-## 🧩 Technical Overview  
 
-| Technology | Usage |
-|-------------|--------|
-| Swift / SwiftUI | Core app development |
-| CoreML + Vision Framework | AI fashion recognition & analysis |
-| Firebase / CloudKit | Data storage and authentication |
-| REST API | Backend communication for AI model requests |
-| App Store Connect / TestFlight | Beta testing and distribution |
+## 🛠 Technical Overview
+
+| Technology          | Usage                                                       |
+|---------------------|-------------------------------------------------------------|
+| React Native / Expo | Core mobile app framework                                  |
+| TypeScript          | Type-safe component and screen development                  |
+| Rork (AI Builder)   | Initial app skeleton, navigation structure, boilerplate UI  |
+| Backend API         | Outfit evaluation / scoring requests                        |
+| TestFlight          | iOS beta distribution                                      |
+
 
 ---
 
